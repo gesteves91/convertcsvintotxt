@@ -1,7 +1,7 @@
 import csv
 
-output=open('comments-1.txt','w')
+output=open('comments-3.txt','w')
 
-with open('comments.csv',"rt") as f:
+with open('comments-3.csv',"rt") as f:
   for row in f:
     output.write(row.replace(","," "))
